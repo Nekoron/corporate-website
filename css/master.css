@@ -1,0 +1,314 @@
+html, body, p, h1, h2, h3, h4 {
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 400%;
+}
+
+h2 {
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+p, a {
+  font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+/* -------top image -------*/
+
+.top-img {
+  background-image:url(../iamges/img01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.top-text {
+  text-align: center;
+  padding: 250px 0;
+  color: white;
+
+}
+
+.top-text p {
+  font-weight: bold;
+
+}
+
+/* -------navigation -------*/
+
+.navbar-brand {
+  font-family: 'Cedarville Cursive', cursive;
+
+}
+
+.nav-corporate {
+  font-size: 30px;
+  transition : all 0.5s ease 0s;
+}
+
+.nav-corporate:hover {
+  color: #73777B;
+  transition : all 0.5s ease 0s;
+}
+
+nav i {
+  color: #73777B;
+
+}
+
+.nav-link {
+  border-radius: 10%;
+  margin: 0 5px;
+  transition : all 0.5s ease 0s;
+}
+
+.nav-link:hover {
+  background-color: #7F8487;
+  transition : all 0.5s ease 0s;
+}
+
+
+.nav-padding {
+  padding: 5px 20px;
+}
+
+
+/* -------feature -------*/
+
+.feature-img {
+  background-image: url(../iamges/fix-bg.jpg);
+  background-size: cover;
+}
+
+.feature-text {
+  text-align: center;
+  color: white;
+  padding: 300px 0;
+  width: 80%;
+  margin: auto;
+}
+
+
+/* -------slide -------*/
+
+.slide img {
+  height: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  max-height:100vh;
+  background-size: cover;
+  position: relative;
+}
+
+
+.slide-text {
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  color: white;
+
+}
+
+/* -------service -------*/
+.service {
+  text-align: center;
+}
+
+.service h1 {
+  padding: 50px;
+}
+
+.container h2{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.service-text{
+  position:relative;
+  left: 0;
+
+}
+
+.service-img {
+  background-size: cover;
+}
+
+
+.service-row {
+  margin: 40px auto;
+  width: 90%;
+}
+
+.carousel-button-style {
+  width: 15%;
+  transition : all 0.5s ease 0s;
+}
+
+.carousel-button-style:hover {
+  background-color:gray;
+  opacity: 0.5;
+  transition : all 0.5s ease 0s;
+
+}
+
+.service-button {
+  transition: all 0.5s ease 0s;
+}
+
+.service-button:hover {
+  transition: all 0.5s ease 0s;
+  opacity: 0.8;
+}
+
+
+
+
+/* -------information -------*/
+
+.information {
+  color: white;
+  text-align: center;
+}
+
+.information h1 {
+  padding-top: 10%;
+}
+.information-img {
+  background-image: url(../iamges/fix-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.information-row {
+  margin: 40px auto;
+  width: 90%;
+
+}
+
+.card {
+  padding: 10px;
+  background-color: transparent;
+
+}
+
+.information h1 {
+  padding-bottom: 130px;
+}
+
+.information i {
+  font-size: 80px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.information p{
+  padding: 10px;
+}
+
+.card-outline {
+  border-style: solid;
+  border-color: white;
+
+}
+
+/* ------------footer------------ */
+
+footer {
+  background-color: #7F8487;
+
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  line-height: 2.5;
+  padding: 5px 15px;
+  border-radius: 10%;
+  transition: all 0.5s ease 0s;
+
+}
+
+footer a:hover {
+  color: white;
+  background-color: #413F42;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-padding {
+  padding: 30px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+  padding-top: 12px;
+}
+
+.copyRight {
+  height: 50px;
+  background-color: #413F42;
+  opacity: 0.6;
+}
+
+
+/* ------------media query----------- */
+@media (max-width: 765px) {
+
+  .service-text{
+    margin: 15px auto 70px;
+  }
+  .row {
+    margin-bottom: 0;
+  }
+
+      /* ------information ------*/
+  .information i {
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .information p{
+    padding: 0 50px 20px;
+  }
+
+  .information h1 {
+    padding-bottom: 60px;
+  }
+
+  .information-img {
+    background-image: url(../iamges/fix-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+  }
+
+  .card {
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 20px;
+
+  }
+  .footer-padding {
+    padding: 30px 0;
+  }
+
+
+}
